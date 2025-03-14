@@ -5,6 +5,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Pizza4Ps.CustomerService.Persistence.Intercepter;
 using Pizza4Ps.CustomerService.Domain.Abstractions.Repositories.RepositoryBase;
 using Pizza4Ps.CustomerService.Domain.Abstractions;
+using Microsoft.AspNetCore.Identity;
+using Pizza4Ps.CustomerService.Domain.Entities.Identity;
 
 namespace Pizza4Ps.CustomerService.Persistence.DependencyInjection.Extentions
 {
